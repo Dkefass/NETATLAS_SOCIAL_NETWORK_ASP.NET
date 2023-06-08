@@ -1,0 +1,148 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NetAtlas
+build_property.RootNamespace = NetAtlas
+build_property.ProjectDir = Z:\Bureau\NetAtlas\NetAtlas\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = Z:\Bureau\NetAtlas\NetAtlas
+build_property._RazorSourceGeneratorDebug = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/Acceuil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXEFjY2V1aWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/AddPhotoVideo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXEFkZFBob3RvVmlkZW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXEFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/AdminError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXEFkbWluRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/AdminEspace.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXEFkbWluRXNwYWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/Ajouter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXEFqb3V0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/ChatRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXENoYXRSb29tLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/ChatRoomR.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXENoYXRSb29tUi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/CreateCompte.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXENyZWF0ZUNvbXB0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/DeleteMembre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXERlbGV0ZU1lbWJyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/ListeMembres.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXExpc3RlTWVtYnJlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/ListeMembresAccept.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXExpc3RlTWVtYnJlc0FjY2VwdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/ListeMembresAcceptM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXExpc3RlTWVtYnJlc0FjY2VwdE0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/ListeMembresAcceptMR.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXExpc3RlTWVtYnJlc0FjY2VwdE1SLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/ListeMembresAcceptR.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXExpc3RlTWVtYnJlc0FjY2VwdFIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/ListeMembresR.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXExpc3RlTWVtYnJlc1IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/Moderateur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXE1vZGVyYXRldXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/ModerateurError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXE1vZGVyYXRldXJFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/ModerateurEspace.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXE1vZGVyYXRldXJFc3BhY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/UnMembre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXFVuTWVtYnJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/UnMembreM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXFVuTWVtYnJlTS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/ValiderMembre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXFZhbGlkZXJNZW1icmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/CreateCompte/ValiderMembreError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ29tcHRlXFZhbGlkZXJNZW1icmVFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/Inscription.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zY3JpcHRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/Shared/_po.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9wby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Bureau/NetAtlas/NetAtlas/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mwu4b9hskv

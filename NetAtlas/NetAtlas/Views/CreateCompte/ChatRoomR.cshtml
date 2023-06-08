@@ -1,0 +1,132 @@
+﻿@model List<Membre>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
+	
+	<title>Initio - Free, multipurpose html5 template by GetTemplate</title>
+
+	<link rel="shortcut icon" href="~/assets/images/gt_favicon.png">
+	
+	<!-- Bootstrap -->
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	<!-- Icons -->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<!-- Fonts -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="~/assets/css/styles.css">
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog Template">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="~/favicon.ico"> 
+    
+    <!-- FontAwesome JS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="~/assets/css/theme-1.css">
+	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
+    
+<!-- 
+
+Timeless Template 
+
+http://www.templatemo.com/tm-517-timeless
+
+-->
+    <!-- load CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <!-- Google web font "Open Sans" -->
+   
+
+</head>
+<body class="home">
+
+<header id="header">
+	<div id="head" class="parallax" parallax-speed="2">
+		<h1 id="logo" class="text-center">
+			 <img  class="img-circle" src ="@("~/images/"+ ViewBag.Membre.image_url)" asp-append-version="true"  /> 
+			<span class="title">@ViewBag.Membre.nom @ViewBag.Membre.prenom</span>
+			<span class="tagline">@ViewBag.Membre.sexe<br>
+				<a href="">@ViewBag.Membre.email</a></span>
+		</h1>
+	</div>
+   
+	<main id="main">
+
+	<div class="container">
+		<div class="row topspace">
+			<div class="col-sm-8 col-sm-offset-2">
+				                 
+					<h2 class="section-title"><span>Recherche d'amis</span></h2>										
+				<article class="post">
+                    <h1 class="entry-title"><a href="single.html" rel="bookmark">Resultat de la recherche</a></h1>
+					    <table>
+              
+            <tbody>
+                @foreach(var membre in Model)
+                {
+              <tr>
+                 
+                  <td ><img  class="img-circle elevation-2" src ="@("~/images/"+membre.image_url)" asp-append-version="true"  width=120px height=120px /></td>
+                
+                
+                <td> @membre.nom </td>
+                <td>@membre.prenom</td>
+               
+                
+                 <td><a asp-action="Ajouter" asp-route-email="@ViewBag.Membre.email" > <input asp-route-id="@membre.email" type="submit" value="Ajouter" class="btn btn-success" /> </a>  @ViewBag.MailMassge</td>
+                 
+
+              </tr>
+             
+                }
+            </tbody>
+          </table>
+				</article>
+ 				
+ 			
+			</div> 
+		</div>
+
+		
+
+	</div>	<!-- /container -->
+
+</main>
+
+
+	
+</header>
+
+
+
+
+
+  
+   </body> 
+
+
+
+
+
+
+
+
+<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="~/assets/js/template.js"></script>
+
+</html>
+
+

@@ -1,0 +1,133 @@
+﻿@model NetAtlas.Views.InscriptionVM
+
+@{
+    ViewData["Title"] = "Inscription";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+	<title>Login V16</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="~/images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="~/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="~/vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="~/css2/util.css">
+	<link rel="stylesheet" type="text/css" href="~/css2/main.css">
+<!--===============================================================================================-->
+ 
+	
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('../images3/john-rodenn-castillo-rQqWOHZ96OM-unsplash.jpg');">
+			<div class="wrap-login100 p-t-30 p-b-50"  >
+				
+				<span class="login100-form-title p-b-41" >
+				
+					<div bgcolor="black" >@ViewBag.EmailMessage3</div>
+					Creer un compte
+				</span>
+				<form class="login100-form validate-form p-b-33 p-t-5" asp-action="CreateCompte">
+				 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				  
+					<div class="wrap-input100 validate-input form-group" data-validate = "Entrer votre email">
+						<center> <label asp-for="email" class="control-label"  style="color:white;"></label></center>
+						<input class="input100" type="text"   asp-for="email" placeholder="Email">
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					 	  <center> <p  class="text-danger">@ViewBag.EmailMessage</p></center>
+                          <center><span asp-validation-for="email" ></span></center>
+						
+					</div>
+
+					<div class="wrap-input100 validate-input form-group" data-validate="Entrer le mot de passe">
+						<center ><label asp-for="mot_de_passe" class="control-label" style="color:white;"></></label></center>
+						<input class="input100" type="password" asp-for="mot_de_passe"  placeholder="Mot de passe" >
+						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
+                        <center><span asp-validation-for="mot_de_passe"></span></center> 
+					</div>
+					<div class="wrap-input100 validate-input form-group" data-validate="Confirmer le mot de passe">
+						<center ><label asp-for="mot_de_passe_Conf" class="control-label" style="color:white;"></></label></center>
+						<input class="input100" type="password" asp-for="mot_de_passe_Conf"  placeholder="Confirmer le mot de passe" >
+						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
+                        <center><span asp-validation-for="mot_de_passe_Conf"></span></center> 
+					</div>
+					
+					<div class="wrap-input100 validate-input form-group" data-validate="Entrer le nom">
+						<center ><label asp-for="nom" class="control-label" style="color:white;"></label></center>
+						<input class="input100" type="text" asp-for="nom"  placeholder="Nom" >
+						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
+                        <center><span asp-validation-for="nom"></span></center>
+					</div>
+
+
+					<div class="wrap-input100 validate-input form-group" data-validate="Entrer le prenom">
+						<center ><label asp-for="prenom" class="control-label" style="color:white;"></></label></center>
+						<input class="input100" type="text" asp-for="prenom"  placeholder="Prenom" >
+						<span class="focus-input100" data-placeholder="&#xe80f;"></span> 
+                        <center><span asp-validation-for="prenom"></span></center> 
+					</div>
+					<div class="wrap-input100 validate-input form-group" data-validate="Veuillez choisir Entrer votre sexe">
+					<Center>	<input type="radio" id="html" name="sexe" value="Masculin">
+<label for="html">Masculin</label><br>
+<input type="radio" id="css" name="sexe" value="Feminin">
+<label for="css">Feminin</label><br></Center>
+ <center><span asp-validation-for="sexe"></span></center> 
+</div>
+				
+					<div class="container-login100-form-btn m-t-32 form-group">
+						<button type="submit" class="btn btn-dark">S'inscrire</button>
+						
+					</div>
+
+
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<div >
+	 <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - NetAtlas - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+	</div>
+	
+<!--===============================================================================================-->
+	<script src="~/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="~/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="~/vendor/bootstrap/js/popper.js"></script>
+	<script src="~/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="~/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="~/vendor/daterangepicker/moment.min.js"></script>
+	<script src="~/vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="~/vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="~/js2/main.js"></script>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+

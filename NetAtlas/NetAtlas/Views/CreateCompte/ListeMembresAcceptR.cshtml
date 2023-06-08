@@ -1,0 +1,160 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<Membre>
+  <!-- SidebarSearch Form -->
+    @*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="~/plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="~/dist/css/adminlte.min.css">
+
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+  <!-- Navbar -->
+
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="../../dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Administrateur</a>
+        </div>
+      </div>
+
+      <!-- SidebarSearch Form -->
+     <!-- Navbar Search -->
+     
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+      
+         
+          <li class="nav-item menu-open">
+            <a asp-controller="CreateCompte" asp-action="ListeMembres" class="nav-link active">
+              <i class="nav-icon far fa-circle text-danger"></i>
+              <p class="text">Liste des demandes</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a  asp-controller="CreateCompte" asp-action="ListeMembresAccept" class="nav-link">
+              <i class="nav-icon far fa-circle text-warning"></i>
+              <p>Liste des membres</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon far fa-circle text-info"></i>
+              <p>Publications</p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+ 
+<div class="card text-center">
+    <div class="card-header bg-warning">
+     <h2> Liste des Membres Valide de  NetAtlas  <br />Résultat de la recherche !  </h2>
+    </div>
+    <div class="card-body  bg-light">
+      
+        <table class="table">
+            <thead class="table-success">
+
+              <tr>
+                <th scope="col">Photo</th>
+                <th scope="col">Adresse Email</th>
+                <th scope="col">Mot de passe</th>
+                <th scope="col">nom</th>
+                <th scope="col">prenom</th>
+                <th scope="col">Date d'inscription</th>
+              </tr>
+            </thead>
+            <tbody>
+                @foreach(var membre in Model)
+                {
+              <tr>
+                 
+                
+                  <td ><img  class="img-circle elevation-2" src ="@("~/images/"+membre.image_url)" asp-append-version="true"  width=120px height=120px /></td>
+                
+                <td >@membre.email</td>
+                <td>@membre.mot_de_passe</td>
+                <td> @membre.nom </td>
+                <td>@membre.prenom</td>
+                <td>@membre.date_de_cretaation</td>
+              
+                 <td><a asp-action="UnMembre" asp-route-id="@membre.email"> <input type="submit" value="Afficher" class="btn btn-dark" /> </a></td>
+                
+                 
+
+              </tr>
+             
+                }
+            </tbody>
+          </table>
+         </div>
+          
+    <div class="card-footer text-muted">
+      <h3>NetAtlas</h3>  
+    </div>
+  </div>
+
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="~/plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="~/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- bs-custom-file-input -->
+<script src="~/plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+<!-- AdminLTE App -->
+<script src="~/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="~/dist/js/demo.js"></script>
+<!-- Page specific script -->
+<script>
+$(function () {
+  bsCustomFileInput.init();
+});
+</script>
+</body>

@@ -1,0 +1,54 @@
+﻿@model NetAtlas.Views.InscriptionVM
+
+@{
+    ViewData["Title"] = "Inscription";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Inscription</h1>
+
+<h4>InscriptionVM</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Inscription">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="nom" class="control-label"></label>
+                <input asp-for="nom" class="form-control" />
+                <span asp-validation-for="nom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="prenom" class="control-label"></label>
+                <input asp-for="prenom" class="form-control" />
+                <span asp-validation-for="prenom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="mot_de_passe" class="control-label"></label>
+                <input asp-for="mot_de_passe" class="form-control" />
+                <span asp-validation-for="mot_de_passe" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="mot_de_passe_Conf" class="control-label"></label>
+                <input asp-for="mot_de_passe_Conf" class="form-control" />
+                <span asp-validation-for="mot_de_passe_Conf" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="email" class="control-label"></label>
+                <input asp-for="email" class="form-control" />
+                <span asp-validation-for="email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
